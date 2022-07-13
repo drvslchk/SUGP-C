@@ -1,0 +1,11 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/backa/Desktop/jimp'
+cc -Wall -pedantic -std=c17 -c -g main.c
+ 
+cc -Wall -pedantic -std=c17 -c -g buffer.c
+cc -Wall -pedantic -std=c17 -c -g graph.c
+cc -Wall -pedantic -std=c17 -c -g queue.c
+cc -Wall -pedantic -std=c17 -c -g node.c
+cc -Wall -pedantic -std=c17 -o out -g main.o buffer.o graph.o queue.o node.o -lm
+make: Leaving directory 'c:/Users/backa/Desktop/jimp'
+ 
